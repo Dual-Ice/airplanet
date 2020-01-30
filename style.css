@@ -1,12 +1,388 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('/fonts/roboto-bold_1-webfont.woff2') format('woff2'),
+       url('/fonts/roboto-bold_1-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('/fonts/roboto-light_1-webfont.woff2') format('woff2'),
+       url('/fonts/roboto-light_1-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('/fonts/roboto-lightitalic_1-webfont.woff2') format('woff2'),
+       url('/fonts/roboto-lightitalic_1-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('roboto-regular-webfont.woff2') format('woff2'),
+       url('roboto-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'roboto', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-size: 49px;
+  line-height: 38px;
+  padding-bottom: 10px;
+  color: #262424
+}
+
+.wrapper {
+  width: auto;
+  position: relative;
+  left: auto;
+}
+
 .header {
-  width: 1100px;
   height: 77px;
   background-color: #5973b1;
+  margin-bottom: 13px;
+  position: relative;
+}
+
+.header .logo {
+  display: inline-block;
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 21px;
+  margin-right: 21px;
+}
+
+.contacts {
+  display: inline-block;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 18px;
+  position: absolute;
+  font-weight: 700;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  color: #fff;
+}
+
+.contacts__workhours {
+  font-size: 14px;
+  color: #d4ddf2;
+  text-decoration: underline;
+}
+
+.contacts__workhours:hover {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 199px;
+  vertical-align: top;
+  margin-top: 32px;
+}
+
+.menu__list {
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+.menu__title {
+  font-size: 12px;
+  font-weight: 700;
+  display: inline;
+  padding-left: 17px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+/* .menu__icon {
+  
+} */
+
+.menu__link {
+  display: block;
+  color: #5972b1;
+}
+
+.menu__link:hover  {
+  color: #262424;
+}
+
+.menu__link:active  {
+  color: #262424;
+}
+
+.menu__item {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.banner {
+  margin-bottom: 8px;
+}
+
+.banner__image {
+  display: block;
+}
+
+.content {
+  display: inline-block;
+  /* width: 866px; */
+  margin-right: 35px;
+}
+
+.features__list {
+  padding-left: 0px;
+  /* margin: 0 0; */
+  margin-bottom: 61px;
+}
+
+.features__title {
+  margin-top: 0px;
+  margin-bottom: 26px;
+}
+
+.features__item {
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  /* width: 30%; */
+  text-align: center;
+  padding: 41px 37px 48px 26px;
+}
+
+.features__logo-wrap {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #5972b1;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+
+.features__logo {
+  margin: auto;
+}
+
+.features__item-title {
+  font-size: 11px;
+  color: #262626;
+  font-weight: 700;
+  margin-bottom: 26px;
+  margin-top: 0px;
+  letter-spacing: 3px;
+}
+
+
+.features__item:nth-child(2) {
+  border: 1px solid #e8e8ec;
+  border-radius: 5px;
+}
+
+.features__item-text {
+  color: #262424;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  display: inline;
+}
+
+.features__details-list {
+  margin-bottom: 35px;
+  /* padding-left: 20px; */
+}
+
+.features__details-item {
+  text-align-last: left;
+  list-style: square;
+  line-height: 30px;
+  color: #262424;
+}
+
+.features__price {
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #252525;
+}
+
+.features__price::before {
+  content: '$';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.feeds {
+  margin-bottom: 59px;
+}
+
+.feeds__list {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.feeds__title {
+  margin-top: 0px;
+  margin-bottom: 71px;
+}
+
+.feeds__item-text {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.feeds__item {
+  display: block;
+}
+
+.feeds__item-title {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #262424;
+}
+
+.feeds__item-text {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  color: #262424;
+}
+
+.feeds__image-wrap {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  /* margin-right: 20px; */
+}
+
+.feeds__item-content {
+  display: inline-block;
+  width: 652px;
+  margin-bottom: 59px;
+}
+
+.feeds__image {
+  position: absolute;
+  left: -10px;
+  top: -10px
+}
+
+.feeds__item-date {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #656464
 }
 
 .footer {
   vertical-align: bottom;
-  width: 1100px;
   height: 77px;
   background-color: #5972b1;
+}
+
+.footer .logo__img {
+  margin-bottom: 19px;
+}
+
+.footer .logo {
+  display: inline-block;
+}
+
+.copyright {
+  margin-left: 19px;
+  margin-bottom: 11px;
+  font-size: 14px;
+  font-weight: 300;
+  width: 235px;
+  height: 50px;
+  display: inline-block;
+  color: #fff
+}
+
+.copyright__link {
+  text-decoration: underline;
+}
+
+.socials {
+  display: inline-block;
+}
+
+.socials__title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.socials__item {
+  display: inline-block;
+  margin-right: 9px;
+}
+
+.socials__img {
+  margin: auto;
+}
+
+.socials__list {
+  padding: 0px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.socials__img-wrap {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #d4ddf2;
+  display: block;
+}
+
+.socials__img-wrap:hover {
+  background-color: #fff;
+}
+.pagination {
+  text-align: center;
+}
+
+[class ^= "pagination__"] {
+  display: inline;
+  color: #262424;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pagination__display {
+  font-size: 14px;
+  font-weight: 300;
+  color: #656464;
+  margin-right: 25px;
+}
+
+.pagination__list {
+  padding-left: 0px;
+}
+
+a {  
+  text-decoration: none;
 }
