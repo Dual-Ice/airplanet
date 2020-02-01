@@ -304,7 +304,7 @@ a {
 .feeds__list {
   padding-left: 0px;
   margin-top: 0px;
-  margin-bottom: 66px;
+  margin-bottom: 55px;
 }
 
 .feeds__title {
@@ -348,7 +348,7 @@ a {
   border-radius: 50%;
   display: inline-block;
   overflow: hidden;
-  margin-right: 15px;
+  margin-right: 18px;
   vertical-align: top;
 }
 
@@ -376,7 +376,7 @@ a {
   font-weight: 300;
   color: #262424;
   margin: 0;
-  line-height: 1.5;
+  line-height: 28px;
 }
 
 /* .feeds__item-date {
@@ -509,8 +509,12 @@ a {
 
 .socials__title {
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
   text-align: left;
+}
+
+.socials__list {
+  padding-left: 1px;
 }
 
 .socials__item {
