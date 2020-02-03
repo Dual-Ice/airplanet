@@ -304,7 +304,7 @@ a {
 .feeds__list {
   padding-left: 0px;
   margin-top: 0px;
-  margin-bottom: 55px;
+  margin-bottom: 54px;
 }
 
 .feeds__title {
@@ -321,7 +321,7 @@ a {
 .feeds__item {
   display: block;
   position: relative;
-  margin: 0 0 57px;
+  margin: 0 0 50px;
 }
 
 .feeds__item:last-child {
@@ -336,7 +336,7 @@ a {
     background:#f4f4f4;
     top: 100%;
     left: 0;
-    margin: 25px 0 25px;
+    margin: 19px 0 25px;
 }
 .feeds__item:last-child::after {
   display: none;
@@ -362,13 +362,14 @@ a {
   font-size: 14px;
   font-weight: 300;
   color: #656464;
+  line-height: 1;
 }
 
 .feeds__item-content h3 {
   font-size: 18px;
   font-weight: 700;
   color: #262424;
-  margin: 0 0 10px;
+  margin: 4px 0 8px;
 }
 
 .feeds__item-content p {
@@ -376,7 +377,7 @@ a {
   font-weight: 300;
   color: #262424;
   margin: 0;
-  line-height: 28px;
+  line-height: 30px;
 }
 
 /* .feeds__item-date {
@@ -447,7 +448,7 @@ a {
 .pagination__display {
   font-weight: 300;
   color: #656464;
-  padding-left: 25px;
+  padding-left: 27px;
   vertical-align: middle;
 }
 
