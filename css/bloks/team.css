@@ -3,28 +3,69 @@
   line-height: 38px;
   color: #262424;
   font-weight: 700;
+  margin-bottom: 48px;
 }
 
 .team {
   display: flex;
   flex-direction: column;
-  /* width: 900px */
+  margin-bottom: 52px;
 }
 
 .team__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .team__member {
   display: flex;
   width: 260px;
-    flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262424;
+  text-align: center;
+  margin-bottom: 30px;
+  
 }
 
 .team__member-img {
   width: 160px;
   height: 160px;
   overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
 
+.team__member-fullname {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.team__member-post {
+  color: #5972b1;
+}
+
+.team__member-desc {
+  font-weight: 300;
+}
+
+.team__member-img::after {
+  height: 100%; 
+  content: "";
+  width: 100%; 
+  position: absolute; 
+  background-color:rgba(89, 114, 177, 0.5);
+}
+
+.team__member-name {
+  position: absolute;
+  color:#fff;
+  font-size: 24px;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
