@@ -1,0 +1,16 @@
+.banner {
+  background-color: #76b46f;
+  background-image: url("/images/banners/pattern.png");
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  padding: 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner p {
+  margin: 0;
+}

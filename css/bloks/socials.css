@@ -1,0 +1,35 @@
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.socials__title {
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.socials__list {
+  padding-left: 2px;
+  display: flex;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+
+.socials__logo {
+  width: 20px;
+  height: 20px;
+  background-color: #d4ddf2;
+}
+
+.socials__logo:hover {
+  background-color: #fff;
+}
+
+.socials__title {
+  font-size: 14px;
+}

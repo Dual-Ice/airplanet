@@ -1,0 +1,30 @@
+.team__title {
+  font-size: 49px;
+  line-height: 38px;
+  color: #262424;
+  font-weight: 700;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  /* width: 900px */
+}
+
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team__member {
+  display: flex;
+  width: 260px;
+    flex-direction: column;
+}
+
+.team__member-img {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+
+}

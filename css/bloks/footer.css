@@ -1,0 +1,21 @@
+.footer {
+  color: #fff;
+  font-size: 14px;
+  background-color: #5973b1;
+  padding: 10px 0;
+}
+
+.footer__col{
+  width: 33.3%;
+}
+
+.footer__col--mid {
+  align-self: center;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.footer__col--last {
+  display: flex;
+  justify-content: flex-end;
+} 
