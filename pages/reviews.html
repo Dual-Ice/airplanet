@@ -155,29 +155,45 @@
               </div>
             </section>
           </main>
+        </div>
+        <div class="container">
           <div class="banner">
             <p>Вопросы по бронированию билетов в нашей авиакомпании принимаются. <br> Для этого можно оставить заявку <strong><u>на сайте</u></strong> или же позвонить по номеру <br> круглосуточной поддержки <strong>8 (800) 00-392-10</strong>.</p>
           </div>
+        </div>
+        <div class="container">
           <form class="review-form" action="" method="post">
               <h2 class="review-form__title">Оставить отзыв</h2>
               <div class="review-form__wrap">
                 <div class="review-form__row">
-                  <label for="review-form__username">Ваше имя</label>
-                  <input id="review-form__username" type="text" placeholder="Андрей">
-                  <label for="review-form__vk-link">Ссылка на профиль VK</label>
-                  <input id="review-form__vk-link" type="text" placeholder="vk.com/example">
-                </div>
-                <div class="review-form__row">
-                  <label for="review-form__text">Текст отзыва</label>
-                  <textarea id="review-form__text" cols="30" rows="10" placeholder="Мне понравилось"></textarea>
-                </div>
-                <div class="review-form__row">
-                  <label for="review-form__photo-view">Отображать фото в отзыве</label>
-                  <div id="review-form__photo-view">
-                    <input class="review-form__radio" type="radio" name="photo-view" checked>Да <br>
-                    <input class="review-form__radio" type="radio" name="photo-view">Нет <br>
+                  <div class="review-form__col">
+                    <label for="review-form__username">Ваше имя</label>
+                    <input id="review-form__username" class="review-form__input" type="text" placeholder="Андрей">
                   </div>
-                  <button class="review-form__submit"><div>Отправить</div></button>
+                  <div class="review-form__col">
+                    <label for="review-form__vk-link">Ссылка на профиль VK</label>
+                    <input id="review-form__vk-link" class="review-form__input" type="text" placeholder="vk.com/example">
+                  </div>
+                </div>
+                <div class="review-form__row">
+                  <div class="review-form__col">
+                    <label for="review-form__text">Текст отзыва</label>
+                    <textarea id="review-form__text" class="review-form__textarea" placeholder="Мне понравилось"></textarea>
+                  </div>
+                </div>
+                <div class="review-form__row">
+                  <div class="review-form__col">
+                    <label for="review-form__photo-view">Отображать фото в отзыве</label>
+                    <div id="review-form__photo-view">
+                      <input class="review-form__radio" type="radio" name="photo-view" checked><label for="radio">
+                        Да
+                      </label>
+                      <input class="review-form__radio" type="radio" name="photo-view"><label for="radio">Нет</label>
+                    </div>
+                  </div>
+                  <div class="review-form__col">
+                    <button class="review-form__submit"><div class="review-form__submit-text">Отправить</div></button>
+                  </div>
                 </div>
               </div>
           </form>
