@@ -162,41 +162,49 @@
           </div>
         </div>
         <div class="container">
-          <form class="review-form" action="" method="post">
-              <h2 class="review-form__title">Оставить отзыв</h2>
-              <div class="review-form__wrap">
+          <div class="review-form">
+            <h2 class="review-form__title">Оставить отзыв</h2>
+            <form method="" class="review-form__element">
+              <div class="review-form__content">
                 <div class="review-form__row">
-                  <div class="review-form__col">
-                    <label for="review-form__username">Ваше имя</label>
-                    <input id="review-form__username" class="review-form__input" type="text" placeholder="Андрей">
-                  </div>
-                  <div class="review-form__col">
-                    <label for="review-form__vk-link">Ссылка на профиль VK</label>
-                    <input id="review-form__vk-link" class="review-form__input" type="text" placeholder="vk.com/example">
-                  </div>
+                  <label class="review-form__col">
+                    <div class="review-form__element-title">Ваше имя</div>
+                    <input class="review-form__input" type="text" placeholder="Андрей">
+                  </label>
+                  <label class="review-form__col">
+                    <div class="review-form__element-title">Ссылка на профиль VK</div>
+                    <input class="review-form__input" type="text" placeholder="vk.com/example">
+                  </label>
                 </div>
                 <div class="review-form__row">
-                  <div class="review-form__col">
-                    <label for="review-form__text">Текст отзыва</label>
-                    <textarea id="review-form__text" class="review-form__textarea" placeholder="Мне понравилось"></textarea>
-                  </div>
+                  <label class="review-form__col">
+                    <div class="review-form__element-title">Текст отзыва</div>
+                    <textarea class="review-form__input review-form__input--textarea" placeholder="Мне понравилось" ></textarea>
+                  </label>
                 </div>
-                <div class="review-form__row">
-                  <div class="review-form__col">
-                    <label for="review-form__photo-view">Отображать фото в отзыве</label>
-                    <div id="review-form__photo-view">
-                      <input class="review-form__radio" type="radio" name="photo-view" checked><label for="radio">
-                        Да
+              </div>
+              <div class="review-form__controls">
+                <div class="review-form__buttons-row">
+                  <div class="switch-controls">
+                    <div class="switch-controls__title">Отображать фото в отзыве</div>
+                    <div class="switch-controls__buttons">
+                      <label class="switch-controls__element">
+                        <input type="radio" class="switch-controls__element-radio" name="switch-controls__element-radio">
+                        <div class="switch-controls__element-title">Да</div>
                       </label>
-                      <input class="review-form__radio" type="radio" name="photo-view"><label for="radio">Нет</label>
+                      <label class="switch-controls__element">
+                        <input type="radio" class="switch-controls__element-radio" name="switch-controls__element-radio">
+                        <div class="switch-controls__element-title">Нет</div>
+                      </label>
                     </div>
                   </div>
-                  <div class="review-form__col">
-                    <button class="review-form__submit"><div class="review-form__submit-text">Отправить</div></button>
+                  <div class="form-button">
+                    <button class="form__button-submit"><div class="form__button-text">Отправить</div></button>
                   </div>
                 </div>
               </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </div>
