@@ -32,6 +32,7 @@
 .menu__item--active .menu__item-link,
 .menu__item-link:hover {
   color: #262424;
+  transition: 1s;
 }
 
 .menu__item--icon--main .menu__item-link:before {
@@ -40,10 +41,12 @@
 
 .menu__item--icon--main .menu__item-link:hover:before {
   background-image: url('/images/icons/menu/main-hover.png');
+  transition: 1s;
 }
 
 .menu__item--icon--main.menu__item--active .menu__item-link::before {
   background-image: url('/images/icons/menu/main-hover.png');
+  transition: 1s;
 }
 
 .menu__item--icon--team .menu__item-link:before {
@@ -52,10 +55,12 @@
 
 .menu__item--icon--team .menu__item-link:hover:before {
   background-image: url('/images/icons/menu/team-hover.png');
+  transition: 1s;
 }
 
 .menu__item--icon--team.menu__item--active .menu__item-link::before {
   background-image: url('/images/icons/menu/team-hover.png');
+  transition: 1s;
 }
 
 .menu__item--icon--reviews .menu__item-link:before {
@@ -64,8 +69,10 @@
 
 .menu__item--icon--reviews .menu__item-link:hover:before {
   background-image: url('/images/icons/menu/reviews-hover.png');
+  transition: 1s;
 }
 
 .menu__item--icon--reviews.menu__item--active .menu__item-link::before {
   background-image: url('/images/icons/menu/reviews-hover.png');
+  transition: 1s;
 }

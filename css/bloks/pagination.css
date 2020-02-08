@@ -1,7 +1,12 @@
 .pagination {
   display: flex;
-  align-self: center;
   text-align: center;
+  padding-left: 270px;
+}
+
+.pagination--reviews {
+  align-self: auto;
+  padding-left: 210px;
 }
 
 .pagination__list {
@@ -54,10 +59,12 @@
 .pagination__item--active .pagination__item-link,
 .pagination__item--active .pagination__item-link:hover {
   color: #fff;
+  transition: 1s;
 }
 
 .pagination__item-link:hover {
   color: #3a5bbf;
+  transition: 1s;
 }
 
 .pagination__controls {

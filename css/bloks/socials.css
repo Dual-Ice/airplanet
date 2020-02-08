@@ -24,10 +24,15 @@
   width: 20px;
   height: 20px;
   background-color: #d4ddf2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .socials__logo:hover {
   background-color: #fff;
+  transition: 1s;
 }
 
 .socials__title {

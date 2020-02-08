@@ -37,6 +37,10 @@
   background-color: #5972b1;
   margin-top: 43px;
   margin-bottom: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .features__item-title {

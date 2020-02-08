@@ -1,14 +1,15 @@
 .partners {
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 41px;
 }
 
 .partners__title {
   font-size: 49px;
   color: #262424;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
+  line-height: 1;
 }
 
 .partners__list {
@@ -16,19 +17,25 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding-right: 20px;
 }
 
+.partners__item {
+  margin-bottom: 20px;
+}
 
 .partners__item-img {
   display: flex;
   align-items: center;
   justify-content: center;
   filter: grayscale(100%);
-  margin: 0 68px 40px;
+  margin: 0 60px 40px;
   width: 161px;
   height: 64px;
 }
 
-.partners__item-img:hover {
+.partners__item-img:hover,
+.partners__item--active .partners__item-img{
   filter: none;
+  transition: 3s;
 }
