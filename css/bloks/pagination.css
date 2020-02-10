@@ -1,12 +1,12 @@
 .pagination {
   display: flex;
   text-align: center;
-  padding-left: 270px;
+  padding-left: 30%;
 }
 
 .pagination--reviews {
   align-self: auto;
-  padding-left: 210px;
+  padding-left: 24.5%пше;
 }
 
 .pagination__list {
@@ -49,7 +49,7 @@
 .pagination__display {
   font-weight: 300;
   color: #656464;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 .pagination__item-link {
@@ -68,6 +68,6 @@
 }
 
 .pagination__controls {
-  margin-left: 15px;
+  margin-left: 17px;
   display: flex;
 }

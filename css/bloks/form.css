@@ -78,6 +78,7 @@
   border-radius: 3px;
   background-color: #5972b1;
   padding: 0;
+  border: none;
 }
 
 .form__button-text {
@@ -85,7 +86,7 @@
   letter-spacing: 2px;
   color: #fff;
   font-weight: 700;
-  padding: 15px 20px;
+  padding: 16px 21px;
   text-transform: uppercase;
   display: flex;
 }
