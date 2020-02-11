@@ -1,10 +1,11 @@
 .contacts {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
   text-align: right;
   font-weight: 700;
   font-style: normal;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 .contacts__phone {
@@ -16,7 +17,6 @@
   font-size: 14px;
   color: #d4ddf2;
   text-decoration: underline;
-  position: relative;
 }
 
 .contacts__phone,
@@ -25,37 +25,51 @@
 }
 
 .contacts__workhours-time {
-  /* display: none; */
-  position: absolute;
-  padding: 20px 22px 18px 20px;
-  /* margin-top: 6px; */
-  line-height: 1;
-  background-image: linear-gradient(0deg, #fff 0%, #fff 100%);
-  box-shadow: 2.5px 4.33px 2.5px rgba(0,0,0,0.2);
-  border-radius: 3px;
-  /* transition: 5s; */
+  display: none;
   top: 100%;
+  right: -9999px;
+  margin-top: 20px;
+  position: absolute;
+  line-height: 1;
+  filter: drop-shadow(0 0 5px rgba(42,61,115,0.55));
+   /* drop-shadow(0px 5px 2.5px rgba(0,0,0,0.2)); */
+  background-image: linear-gradient(0deg, #fff 0%, #fff 100%);
+  border-radius: 3px;
   opacity: 0;
-  margin-top: 25px;
-  z-index: 50;
+  transition: opacity 10s;
 }
 
-.contacts__workhours-time:before {
+.contacts__workhours-wrap {
+  padding: 16px 20px;
+
+}
+
+.contacts__workhours-time:after {
   content: "";
   display: block;
-  height: 300px;
+  height: 100px;
   left: 0;
   right: 0;
   top: -29px;
   position: absolute;
 }
 
+.contacts__workhours-time::before{
+  content: ''; 
+  position: absolute;
+  right: 0;
+  top: -10px;
+  border: 11px solid transparent;
+  border-bottom: 11px solid #fff;
+  border-top-width: 0;
+ }
+
 .contacts__workhours:hover .contacts__workhours-time {
-  /* display: block; */
+  display: block;
   opacity: 1;
   right: 0;
-  /* text-align: left;
-  git  */
+  z-index: 50;
+  text-align: left;
 }
 
 .contacts__workours-work {
@@ -68,12 +82,4 @@
   color: #262424;
 }
 
-.contacts__workhours-time::before{
-  content: ''; 
-  position: absolute;
-  right: 0;
-  top: -15px;
-  border: 11px solid transparent;
-  border-bottom: 11px solid #fff;
- }
 
