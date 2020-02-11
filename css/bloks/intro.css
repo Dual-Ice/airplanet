@@ -1,0 +1,43 @@
+.intro {
+  background: url("/images/background/bg-plain.png") no-repeat center top fixed;
+  /* width: 100%; */
+  /* height: auto; */
+  background-size: cover;
+}
+
+.intro__logo {
+  margin-bottom: 40px;
+}
+
+.intro__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: introAnimation .75s ease-out forwards;
+  /* transform-origin: bottom; */
+  opacity: 0;
+}
+
+@keyframes introAnimation {
+  0% {
+
+  }
+
+  25% {
+    transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  75% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
