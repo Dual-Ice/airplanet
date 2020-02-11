@@ -17,6 +17,7 @@
   font-size: 14px;
   color: #d4ddf2;
   text-decoration: underline;
+  transition: color 1s;
 }
 
 .contacts__phone,
@@ -25,7 +26,6 @@
 }
 
 .contacts__workhours-time {
-  display: none;
   top: 100%;
   right: -9999px;
   margin-top: 20px;
@@ -81,5 +81,3 @@
   font-weight: 300;
   color: #262424;
 }
-
-

@@ -28,11 +28,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: background-color 1s;
 }
 
 .socials__logo:hover {
   background-color: #fff;
-  transition: 1s;
 }
 
 .socials__title {
