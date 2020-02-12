@@ -3,13 +3,29 @@
   margin-top: 32px;
 }
 
+.menu--vertical {
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
 .menu__list {
   padding-left: 18px;
+}
+
+.menu__list--vertical {
+  display: flex;
+  padding-left: 0;
 }
 
 .menu__item {
   margin-bottom: 31px;
   display: flex;
+}
+
+.menu__item--vertical {
+  margin-bottom: 0;
+  margin-right: 100px;
 }
 
 .menu__item-link {

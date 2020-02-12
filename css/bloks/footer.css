@@ -9,6 +9,10 @@
   width: 33.3%;
 }
 
+.footer__col--wider{
+  width: 50%;
+}
+
 .footer__col--mid {
   align-self: center;
   text-align: center;
@@ -18,4 +22,5 @@
 .footer__col--last {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 } 
