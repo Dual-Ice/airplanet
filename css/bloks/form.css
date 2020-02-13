@@ -84,15 +84,10 @@
   margin-bottom: 5px;
 }
 
-
 .form__button {
   border-radius: 3px;
   padding: 0;
   transition: background-color 1s, color 1s;
-}
-.form__button--intro {
-  background-color: transparent;
-  border: 1px solid #1c5bc3;
 }
 
 .form__button--submit {
@@ -110,10 +105,6 @@
   display: flex;
 }
 
-.form__button-text--intro {
-  color:  #1c5bc4;
-}
-
 .form__button-text:after {
   content: "";
   margin-left: 11px;
@@ -123,24 +114,12 @@
   transition: 1s steps(25px);
 }
 
-.form__button-text--active:after {
-  background: url("/images/icons/buttons/button_icons.png") -30px -5px;
-}
-
 .form__button--submit:hover {
   background-color: #fff;
 }
 
-.form__button--intro:hover {
-  background-color: #1c5bc3;
-}
-
 .form__button--submit:hover .form__button-text {
   color: #5972b1;
-}
-
-.form__button--intro:hover .form__button-text {
-  color: #fff;
 }
 
 .form__button--submit:hover .form__button-text:after {
