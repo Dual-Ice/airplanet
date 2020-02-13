@@ -11,6 +11,26 @@
   margin-bottom: 57px;
 }
 
+.banner--vertical {
+  background-color: #5972b1;
+  padding: 22px 0 25px;
+  margin-bottom: 25px;
+  width: 274px;
+  margin-top: 4px;
+}
+
 .banner p {
   margin: 0;
+}
+
+.banner--vertical p {
+  text-align: center;
+}
+
+.banner__image {
+  margin-bottom: 3px;
+}
+
+.banner__image--more-bottom {
+  margin-bottom: 6px;
 }

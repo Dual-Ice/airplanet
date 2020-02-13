@@ -6,7 +6,7 @@
 .menu--vertical {
   width: auto;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 
 .menu__list {
@@ -25,7 +25,7 @@
 
 .menu__item--vertical {
   margin-bottom: 0;
-  margin-right: 100px;
+  margin-right: 94px;
 }
 
 .menu__item-link {
@@ -36,15 +36,16 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: color 1s;
+  align-items: center;
 }
 
 .menu__item-link:before {
   content: "";
-  margin-right: 16px;
+  margin-right: 13px;
   width: 23px;
   height: 18px;
   background: url("/images/icons/menu/menu_icons.png");
-  transition: 2s steps(27px);
+  /* transition: 2s steps(27px); */
 }
 
 .menu__item--active .menu__item-link,
@@ -62,19 +63,19 @@
 }
 
 .menu__item--icon--team .menu__item-link:before {
-  background-position: -59px -5px
+  background-position: 61px -5px
 }
 
 .menu__item--icon--team .menu__item-link:hover:before,
 .menu__item--icon--team.menu__item--active .menu__item-link::before  {
-   background-position: -89px -5px
+   background-position: 28px -5px
 }
 
 .menu__item--icon--reviews .menu__item-link:before {
-  background-position: -119px -5px;
+  background-position: -57px -5px;
 }
 
 .menu__item--icon--reviews .menu__item-link:hover:before,
 .menu__item--icon--reviews.menu__item--active .menu__item-link::before {
-  background-position: -152px -5px;
+  background-position: -87px -5px;
 }

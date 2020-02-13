@@ -6,7 +6,11 @@
 
 .pagination--reviews {
   align-self: auto;
-  padding-left: 24.5%пше;
+  padding-left: 25.5%;
+}
+
+.pagination--less-padding {
+  padding-left: 22.5%;
 }
 
 .pagination__list {

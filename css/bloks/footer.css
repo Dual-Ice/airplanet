@@ -2,7 +2,11 @@
   color: #fff;
   font-size: 14px;
   background-color: #5973b1;
-  padding: 10px 0;
+  padding: 14px 0;
+}
+
+.footer .logo {
+  font-size: 0px;
 }
 
 .footer__col{

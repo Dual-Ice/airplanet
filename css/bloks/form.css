@@ -1,14 +1,25 @@
+.form {
+  padding-left: 18%;
+  width: 100%;
+  padding-right: 18%;
+  margin-bottom: 50px;
+}
+
+.form--changed-paddings {
+  padding-left: 25.5%;
+  padding-right: 8.5%;
+  margin-bottom: 48px;
+}
+
 .form__wrapper {
   font-size: 14px;
   background-color: #f4f4f4;
   padding: 5% 10% 7%;
 }
 
-.form {
-  padding-left: 18%;
-  width: 100%;
-  padding-right: 18%;
-  margin-bottom: 50px;
+.form__wrapper--rounded {
+  border-radius: 3px;
+  padding: 4.5% 12.7% 6.5%;
 }
 
 .form__title {

@@ -13,6 +13,7 @@
 
 .socials__title--blacked {
   color: #2d2222;
+  margin-bottom: 6px;
 }
 
 .socials__list {
@@ -27,6 +28,15 @@
 .socials__item {
   margin-right: 10px;
 }
+
+.socials__item--without-margin {
+  margin-right: 5px;
+}
+
+.socials__item--without-margin:last-child {
+  margin-right: 0;
+}
+
 
 .socials__logo {
   width: 20px;
