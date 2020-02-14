@@ -36,7 +36,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  transition: color 1s;
+  transition: color .5s;
   align-items: center;
 }
 
@@ -46,7 +46,6 @@
   width: 23px;
   height: 18px;
   background: url("/images/icons/menu/menu_icons.png");
-  /* transition: 2s steps(27px); */
 }
 
 .menu__item--active .menu__item-link,

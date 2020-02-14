@@ -41,10 +41,6 @@
   color: #bfbebe;
 }
 
-.pagination__right {
-  color: #262424;
-}
-
 .pagination__item--active.pagination__item {
   background-color: #5972b1;
   border-radius: 3px;
@@ -53,22 +49,21 @@
 .pagination__display {
   font-weight: 300;
   color: #656464;
-  /* padding-left: 10px; */
 }
 
-.pagination__item-link {
+.pagination__item-link,
+.pagination__right {
   color: #262424;
+  transition: .5s;
 }
 
 .pagination__item--active .pagination__item-link,
 .pagination__item--active .pagination__item-link:hover {
   color: #fff;
-  transition: 1s;
 }
 
 .pagination__item-link:hover {
   color: #3a5bbf;
-  transition: 1s;
 }
 
 .pagination__controls {
