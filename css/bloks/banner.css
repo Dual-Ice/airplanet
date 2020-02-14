@@ -1,25 +1,43 @@
 .banner {
-  background-color: #76b46f;
-  background-image: url("/images/banners/pattern.png");
   color: #fff;
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
-  padding: 40px 230px;
   width: 100%;
+  background-color: #76b46f;
   display: flex;
   margin-bottom: 57px;
 }
 
 .banner--vertical {
   background-color: #5972b1;
-  padding: 22px 5px 25px 7px;
-  margin-bottom: 25px;
   margin-top: 4px;
+  margin-bottom: 25px;
+}
+
+.banner--vertical .banner__wrap {
+  padding: 22px 5px 25px 7px;
+}
+
+.banner__wrap {
+  background: url("/images/banners/pattern.png") center center;
+  padding: 40px 230px;
 }
 
 .banner p {
   margin: 0;
+}
+.banner__link, .banner__phone {
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner__link {
+  text-decoration: underline;
+}
+
+.banner a:visited{
+  color: #fff;
 }
 
 .banner--vertical p {

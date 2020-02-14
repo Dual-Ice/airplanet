@@ -11,17 +11,17 @@
   text-align: left;
 }
 
-.socials__title--blacked {
-  color: #2d2222;
+.socials--modified .socials__title {
   margin-bottom: 6px;
 }
 
 .socials__list {
-  /* padding-left: 6px; */
+  padding-left: 2px;
   display: flex;
 }
 
-.socials__list--centered {
+.socials--modified .socials__list {
+  padding-left: 0;
   justify-content: center;
 }
 
@@ -44,14 +44,11 @@
   transition: background-color 1s;
 }
 
-.socials__logo--transparent {
+.socials--modified .socials__logo,
+.socials--modified .socials__logo:hover {
   background-color: transparent;
 }
 
 .socials__logo:hover {
   background-color: #fff;
-}
-
-.socials__logo--transparent:hover {
-  background-color: transparent;
 }

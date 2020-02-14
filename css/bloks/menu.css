@@ -3,7 +3,7 @@
   margin-top: 32px;
 }
 
-.menu--vertical {
+.menu--horizontal {
   width: auto;
   margin-top: 0;
   margin-bottom: 13px;
@@ -13,9 +13,10 @@
   padding-left: 18px;
 }
 
-.menu__list--vertical {
+.menu--horizontal .menu__list {
   display: flex;
   padding-left: 0;
+  align-items: center;
 }
 
 .menu__item {
@@ -23,9 +24,9 @@
   display: flex;
 }
 
-.menu__item--vertical {
+.menu--horizontal .menu__item {
   margin-bottom: 0;
-  margin-right: 94px;
+  margin-right: 11%;
 }
 
 .menu__item-link {

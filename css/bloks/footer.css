@@ -10,11 +10,7 @@
 }
 
 .footer__col{
-  width: 33.3%;
-}
-
-.footer__col--wider{
-  width: 50%;
+  flex: 1;
 }
 
 .footer__col--mid {
