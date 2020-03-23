@@ -45,7 +45,7 @@
   margin-right: 13px;
   width: 23px;
   height: 18px;
-  background: url("/images/icons/menu/menu_icons.png");
+  background: url("../images/icons/menu/menu_icons.png");
 }
 
 .menu__item--active .menu__item-link,
